@@ -7,5 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Shopping-App';
+
+  getName (value:string){
+    console.log(value);    
+    return value;  
+  }
+    
+  
   
 }
